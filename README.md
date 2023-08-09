@@ -40,6 +40,18 @@ yarn pretty
 yarn create react-app react-init --template typescript
 ```
 
+#### Install Redux & Redux Toolkit;
+
+```
+yarn add @reduxjs/toolkit redux react-redux redux-thunk
+```
+
+#### Install React Router DOM;
+
+```
+yarn add @reduxjs/toolkit react-router-dom
+```
+
 #### Install typescript development plugins;
 
 ```
