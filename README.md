@@ -68,6 +68,49 @@ npx tailwindcss init
 yarn add tailwindcss-animate class-variance-authority clsx tailwind-merge
 ```
 
+### Install Shadcn UI;
+
+```
+yarn add lucide-react
+```
+
+```
+npx shadcn-ui@latest init
+
+✔ Would you like to use TypeScript (recommended)? … yes
+✔ Which style would you like to use? › Default
+✔ Which color would you like to use as base color? › Zinc
+✔ Where is your global CSS file? … src/index.css
+✔ Would you like to use CSS variables for colors? … yes
+✔ Where is your tailwind.config.js located? … tailwind.config.js
+✔ Configure the import alias for components: … src/Components
+✔ Configure the import alias for utils: … src/Utils/shadcn
+✔ Are you using React Server Components? … yes
+? Write configuration to components.json. Proceed? › (Y/n) : Y
+
+npx shadcn-ui@latest add
+
+
+Multiple choose needed components;
+
+◯  accordion
+◯  alert
+◯  alert-dialog
+◯  aspect-ratio
+◯  avatar
+◯  badge
+◯  button
+◯  calendar
+◯  card
+◯  checkbox
+...
+
+```
+
+---
+
+### Configure Eslint, Prettier and VS Code Formatter.
+
 #### Install Eslint Plugin;
 
 ```

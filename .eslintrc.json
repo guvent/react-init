@@ -28,6 +28,8 @@
         "camelcase": "warn",
         "react/react-in-jsx-scope": "off",
         "spaced-comment": ["warn", "always", { "markers": ["/"] }],
-        "@typescript-eslint/no-explicit-any": "off"
+        "@typescript-eslint/no-explicit-any": "off",
+        "@typescript-eslint/no-empty-interface": "off",
+        "react/prop-types": "off"
     }
 }

@@ -10,7 +10,7 @@ const store = configureStore({
         apiSlice: apiSlice.reducer,
         wsSlice: wsSlice.reducer,
         default: defaultReducer.reducer,
-        ////////////////////////////////
+        /// ///////////////////////// ///
         mainMenu: mainMenu.reducer
     },
     middleware: (getDefaultMiddleware) =>
@@ -27,7 +27,7 @@ export type AppDispatch = typeof store.dispatch;
 
 export const actions = {
     default: defaultReducer.actions,
-    ////////////////////////////////
+    /// ////////////////////////// ///
     mainMenu: mainMenu.actions
 };
 
