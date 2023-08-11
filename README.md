@@ -12,12 +12,6 @@ yarn && yarn start
 yarn build
 ```
 
-### Tailwindcss watch
-
-```
-yarn twatch
-```
-
 ### Manual check Eslint
 
 ```
@@ -59,13 +53,10 @@ yarn add -D typescript @types/node @types/react @types/react-dom @types/jest
 
 ```
 
-#### Install Tailwindcss;
+#### Install Material UI;
 
 ```
-yarn add -D tailwindcss
-npx tailwindcss init
-
-yarn add tailwindcss-animate class-variance-authority clsx tailwind-merge
+yarn add @mui/material @emotion/react @emotion/styled @mui/styled-engine-sc styled-components @mui/icons-material
 ```
 
 #### Install Eslint Plugin;
